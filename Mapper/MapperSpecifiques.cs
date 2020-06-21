@@ -62,6 +62,7 @@ namespace API.Mapper
                 SM.ImagePath2 = SE.ImagePath2;
                 SM.ImagePath3 = SE.ImagePath3;
                 SM.ImagePath4 = SE.ImagePath4;
+                SM.Description = SE.Description;
                 SM.Note = SE.Note;
                 SM.Id = SE.Id;
                 SM.Active = SE.Active;
@@ -84,6 +85,7 @@ namespace API.Mapper
                 SE.ImagePath2 = SM.ImagePath2;
                 SE.ImagePath3 = SM.ImagePath3;
                 SE.ImagePath4 = SM.ImagePath4;
+                SE.Description = SM.Description;
                 SE.Note = SM.Note;
                 SE.Id = SM.Id;
                 SE.Active = SM.Active;

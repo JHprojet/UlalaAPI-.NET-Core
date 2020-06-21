@@ -14,6 +14,7 @@ namespace Models
         public string ImagePath2 { get; set; }
         public string ImagePath3 { get; set; }
         public string ImagePath4 { get; set; }
+        public string Description { get; set; }
         public int Note { get; set; }
         public int Active { get; set; }
     }
